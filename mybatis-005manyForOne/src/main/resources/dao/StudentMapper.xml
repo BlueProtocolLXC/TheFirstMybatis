@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper
+        PUBLIC "-//mybatis.org//DTD Config 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="dao.StudentMapper">
+    <!--//查询所有的学生包括老师的信息--><!--按照查询嵌套处理-->
+    <!--第一种方式:子查询-->
+    <resultMap id="StuAndTea1" type="student">
+   <association property="teacher" column="tid" javaType="Teacher" select="queryForListTea"></association>
+    </resultMap>
+
+
+
+    <select id="queryForListStu1" resultMap="StuAndTea1">
+        select sid,name,tid from mybatis.student
+    </select>
+
+
+
+    <select id="queryForListTea" resultType="teacher">
+        select * from mybatis.teacher where teacherid=#{teacherid}
+    </select>
+
+
+    <!--//查询所有的学生包括老师的信息-->
+    <!--第二种方式-->
+    <select id="queryForListStu2" resultMap="StuAndTea2">
+        select sid,s.name,tid ,t.name from student s,teacher t where tid = teacherid
+    </select>
+    <resultMap id="StuAndTea2" type="student">
+        <association property="teacher" javaType="Teacher">
+            <result property="name" column="name"></result>
+        </association>
+    </resultMap>
+
+
+</mapper>

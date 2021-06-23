@@ -1,0 +1,166 @@
+21-06-14 org.apache.ibatis.logging.LogFactory Logging initialized using 'class org.apache.ibatis.logging.log4j.Log4jImpl' adapter.
+21-06-14 org.apache.ibatis.logging.LogFactory Logging initialized using 'class org.apache.ibatis.logging.log4j.Log4jImpl' adapter.
+21-06-14 org.apache.ibatis.datasource.pooled.PooledDataSource PooledDataSource forcefully closed/removed all connections.
+21-06-14 org.apache.ibatis.datasource.pooled.PooledDataSource PooledDataSource forcefully closed/removed all connections.
+21-06-14 org.apache.ibatis.datasource.pooled.PooledDataSource PooledDataSource forcefully closed/removed all connections.
+21-06-14 org.apache.ibatis.datasource.pooled.PooledDataSource PooledDataSource forcefully closed/removed all connections.
+21-06-14 org.apache.ibatis.transaction.jdbc.JdbcTransaction Opening JDBC Connection
+21-06-14 org.apache.ibatis.datasource.pooled.PooledDataSource Created connection 1025309396.
+21-06-14 org.apache.ibatis.transaction.jdbc.JdbcTransaction Setting autocommit to false on JDBC Connection [com.mysql.jdbc.JDBC4Connection@3d1cfad4]
+21-06-14 dao.TeacherMapper.teacherStu ==>  Preparing: select sid,s.name,s.tid,t.name from student s,teacher t where s.tid=t.teacher and teacherid=? 
+21-06-14 dao.TeacherMapper.teacherStu ==> Parameters: 0(Integer)
+21-06-14 org.apache.ibatis.logging.LogFactory Logging initialized using 'class org.apache.ibatis.logging.log4j.Log4jImpl' adapter.
+21-06-14 org.apache.ibatis.logging.LogFactory Logging initialized using 'class org.apache.ibatis.logging.log4j.Log4jImpl' adapter.
+21-06-14 org.apache.ibatis.datasource.pooled.PooledDataSource PooledDataSource forcefully closed/removed all connections.
+21-06-14 org.apache.ibatis.datasource.pooled.PooledDataSource PooledDataSource forcefully closed/removed all connections.
+21-06-14 org.apache.ibatis.datasource.pooled.PooledDataSource PooledDataSource forcefully closed/removed all connections.
+21-06-14 org.apache.ibatis.datasource.pooled.PooledDataSource PooledDataSource forcefully closed/removed all connections.
+21-06-14 org.apache.ibatis.transaction.jdbc.JdbcTransaction Opening JDBC Connection
+21-06-14 org.apache.ibatis.datasource.pooled.PooledDataSource Created connection 1025309396.
+21-06-14 org.apache.ibatis.transaction.jdbc.JdbcTransaction Setting autocommit to false on JDBC Connection [com.mysql.jdbc.JDBC4Connection@3d1cfad4]
+21-06-14 dao.TeacherMapper.teacherStu ==>  Preparing: select sid,s.name,s.tid,t.name from student s,teacher t where s.tid=t.teacherid and teacherid=? 
+21-06-14 dao.TeacherMapper.teacherStu ==> Parameters: 0(Integer)
+21-06-14 dao.TeacherMapper.teacherStu <==      Total: 0
+21-06-14 org.apache.ibatis.transaction.jdbc.JdbcTransaction Resetting autocommit to true on JDBC Connection [com.mysql.jdbc.JDBC4Connection@3d1cfad4]
+21-06-14 org.apache.ibatis.transaction.jdbc.JdbcTransaction Closing JDBC Connection [com.mysql.jdbc.JDBC4Connection@3d1cfad4]
+21-06-14 org.apache.ibatis.datasource.pooled.PooledDataSource Returned connection 1025309396 to pool.
+21-06-14 org.apache.ibatis.logging.LogFactory Logging initialized using 'class org.apache.ibatis.logging.log4j.Log4jImpl' adapter.
+21-06-14 org.apache.ibatis.logging.LogFactory Logging initialized using 'class org.apache.ibatis.logging.log4j.Log4jImpl' adapter.
+21-06-14 org.apache.ibatis.datasource.pooled.PooledDataSource PooledDataSource forcefully closed/removed all connections.
+21-06-14 org.apache.ibatis.datasource.pooled.PooledDataSource PooledDataSource forcefully closed/removed all connections.
+21-06-14 org.apache.ibatis.datasource.pooled.PooledDataSource PooledDataSource forcefully closed/removed all connections.
+21-06-14 org.apache.ibatis.datasource.pooled.PooledDataSource PooledDataSource forcefully closed/removed all connections.
+21-06-14 org.apache.ibatis.transaction.jdbc.JdbcTransaction Opening JDBC Connection
+21-06-14 org.apache.ibatis.datasource.pooled.PooledDataSource Created connection 1646464088.
+21-06-14 org.apache.ibatis.transaction.jdbc.JdbcTransaction Setting autocommit to false on JDBC Connection [com.mysql.jdbc.JDBC4Connection@62230c58]
+21-06-14 dao.TeacherMapper.teacherStu ==>  Preparing: select sid,s.name,s.tid,t.name from student s,teacher t where s.tid=t.teacherid and teacherid=? 
+21-06-14 dao.TeacherMapper.teacherStu ==> Parameters: 1(Integer)
+21-06-14 dao.TeacherMapper.teacherStu <==      Total: 4
+21-06-14 org.apache.ibatis.logging.LogFactory Logging initialized using 'class org.apache.ibatis.logging.log4j.Log4jImpl' adapter.
+21-06-14 org.apache.ibatis.logging.LogFactory Logging initialized using 'class org.apache.ibatis.logging.log4j.Log4jImpl' adapter.
+21-06-14 org.apache.ibatis.datasource.pooled.PooledDataSource PooledDataSource forcefully closed/removed all connections.
+21-06-14 org.apache.ibatis.datasource.pooled.PooledDataSource PooledDataSource forcefully closed/removed all connections.
+21-06-14 org.apache.ibatis.datasource.pooled.PooledDataSource PooledDataSource forcefully closed/removed all connections.
+21-06-14 org.apache.ibatis.datasource.pooled.PooledDataSource PooledDataSource forcefully closed/removed all connections.
+21-06-14 org.apache.ibatis.transaction.jdbc.JdbcTransaction Opening JDBC Connection
+21-06-14 org.apache.ibatis.datasource.pooled.PooledDataSource Created connection 1646464088.
+21-06-14 org.apache.ibatis.transaction.jdbc.JdbcTransaction Setting autocommit to false on JDBC Connection [com.mysql.jdbc.JDBC4Connection@62230c58]
+21-06-14 dao.TeacherMapper.teacherStu ==>  Preparing: select sid,s.name,s.tid,t.name from student s,teacher t where s.tid=t.teacherid and t.teacherid=? 
+21-06-14 dao.TeacherMapper.teacherStu ==> Parameters: 1(Integer)
+21-06-14 dao.TeacherMapper.teacherStu <==      Total: 4
+21-06-14 org.apache.ibatis.logging.LogFactory Logging initialized using 'class org.apache.ibatis.logging.log4j.Log4jImpl' adapter.
+21-06-14 org.apache.ibatis.logging.LogFactory Logging initialized using 'class org.apache.ibatis.logging.log4j.Log4jImpl' adapter.
+21-06-14 org.apache.ibatis.datasource.pooled.PooledDataSource PooledDataSource forcefully closed/removed all connections.
+21-06-14 org.apache.ibatis.datasource.pooled.PooledDataSource PooledDataSource forcefully closed/removed all connections.
+21-06-14 org.apache.ibatis.datasource.pooled.PooledDataSource PooledDataSource forcefully closed/removed all connections.
+21-06-14 org.apache.ibatis.datasource.pooled.PooledDataSource PooledDataSource forcefully closed/removed all connections.
+21-06-14 org.apache.ibatis.transaction.jdbc.JdbcTransaction Opening JDBC Connection
+21-06-14 org.apache.ibatis.datasource.pooled.PooledDataSource Created connection 752001567.
+21-06-14 org.apache.ibatis.transaction.jdbc.JdbcTransaction Setting autocommit to false on JDBC Connection [com.mysql.jdbc.JDBC4Connection@2cd2a21f]
+21-06-14 dao.TeacherMapper.teacherStu ==>  Preparing: select sid,s.name,s.tid,t.name from student s,teacher t where s.tid=t.teacherid and t.teacherid=? 
+21-06-14 dao.TeacherMapper.teacherStu ==> Parameters: 1(Integer)
+21-06-14 dao.TeacherMapper.teacherStu <==      Total: 4
+21-06-14 org.apache.ibatis.transaction.jdbc.JdbcTransaction Resetting autocommit to true on JDBC Connection [com.mysql.jdbc.JDBC4Connection@2cd2a21f]
+21-06-14 org.apache.ibatis.transaction.jdbc.JdbcTransaction Closing JDBC Connection [com.mysql.jdbc.JDBC4Connection@2cd2a21f]
+21-06-14 org.apache.ibatis.datasource.pooled.PooledDataSource Returned connection 752001567 to pool.
+21-06-14 org.apache.ibatis.logging.LogFactory Logging initialized using 'class org.apache.ibatis.logging.log4j.Log4jImpl' adapter.
+21-06-14 org.apache.ibatis.logging.LogFactory Logging initialized using 'class org.apache.ibatis.logging.log4j.Log4jImpl' adapter.
+21-06-14 org.apache.ibatis.datasource.pooled.PooledDataSource PooledDataSource forcefully closed/removed all connections.
+21-06-14 org.apache.ibatis.datasource.pooled.PooledDataSource PooledDataSource forcefully closed/removed all connections.
+21-06-14 org.apache.ibatis.datasource.pooled.PooledDataSource PooledDataSource forcefully closed/removed all connections.
+21-06-14 org.apache.ibatis.datasource.pooled.PooledDataSource PooledDataSource forcefully closed/removed all connections.
+21-06-14 org.apache.ibatis.transaction.jdbc.JdbcTransaction Opening JDBC Connection
+21-06-14 org.apache.ibatis.datasource.pooled.PooledDataSource Created connection 752001567.
+21-06-14 org.apache.ibatis.transaction.jdbc.JdbcTransaction Setting autocommit to false on JDBC Connection [com.mysql.jdbc.JDBC4Connection@2cd2a21f]
+21-06-14 dao.TeacherMapper.teacherStu ==>  Preparing: select sid,s.name,s.tid,t.name from student s,teacher t where s.tid=t.teacherid and t.teacherid=? 
+21-06-14 dao.TeacherMapper.teacherStu ==> Parameters: 0(Integer)
+21-06-14 dao.TeacherMapper.teacherStu <==      Total: 0
+21-06-14 org.apache.ibatis.transaction.jdbc.JdbcTransaction Resetting autocommit to true on JDBC Connection [com.mysql.jdbc.JDBC4Connection@2cd2a21f]
+21-06-14 org.apache.ibatis.transaction.jdbc.JdbcTransaction Closing JDBC Connection [com.mysql.jdbc.JDBC4Connection@2cd2a21f]
+21-06-14 org.apache.ibatis.datasource.pooled.PooledDataSource Returned connection 752001567 to pool.
+21-06-14 org.apache.ibatis.logging.LogFactory Logging initialized using 'class org.apache.ibatis.logging.log4j.Log4jImpl' adapter.
+21-06-14 org.apache.ibatis.logging.LogFactory Logging initialized using 'class org.apache.ibatis.logging.log4j.Log4jImpl' adapter.
+21-06-14 org.apache.ibatis.datasource.pooled.PooledDataSource PooledDataSource forcefully closed/removed all connections.
+21-06-14 org.apache.ibatis.datasource.pooled.PooledDataSource PooledDataSource forcefully closed/removed all connections.
+21-06-14 org.apache.ibatis.datasource.pooled.PooledDataSource PooledDataSource forcefully closed/removed all connections.
+21-06-14 org.apache.ibatis.datasource.pooled.PooledDataSource PooledDataSource forcefully closed/removed all connections.
+21-06-14 org.apache.ibatis.transaction.jdbc.JdbcTransaction Opening JDBC Connection
+21-06-14 org.apache.ibatis.datasource.pooled.PooledDataSource Created connection 1646464088.
+21-06-14 org.apache.ibatis.transaction.jdbc.JdbcTransaction Setting autocommit to false on JDBC Connection [com.mysql.jdbc.JDBC4Connection@62230c58]
+21-06-14 dao.TeacherMapper.teacherStu ==>  Preparing: select sid,s.name,s.tid,t.name,t.teacherid from student s,teacher t where s.tid=t.teacherid and t.teacherid=? 
+21-06-14 dao.TeacherMapper.teacherStu ==> Parameters: 1(Integer)
+21-06-14 dao.TeacherMapper.teacherStu <==      Total: 4
+21-06-14 org.apache.ibatis.logging.LogFactory Logging initialized using 'class org.apache.ibatis.logging.log4j.Log4jImpl' adapter.
+21-06-14 org.apache.ibatis.logging.LogFactory Logging initialized using 'class org.apache.ibatis.logging.log4j.Log4jImpl' adapter.
+21-06-14 org.apache.ibatis.datasource.pooled.PooledDataSource PooledDataSource forcefully closed/removed all connections.
+21-06-14 org.apache.ibatis.datasource.pooled.PooledDataSource PooledDataSource forcefully closed/removed all connections.
+21-06-14 org.apache.ibatis.datasource.pooled.PooledDataSource PooledDataSource forcefully closed/removed all connections.
+21-06-14 org.apache.ibatis.datasource.pooled.PooledDataSource PooledDataSource forcefully closed/removed all connections.
+21-06-14 org.apache.ibatis.transaction.jdbc.JdbcTransaction Opening JDBC Connection
+21-06-14 org.apache.ibatis.datasource.pooled.PooledDataSource Created connection 1646464088.
+21-06-14 org.apache.ibatis.transaction.jdbc.JdbcTransaction Setting autocommit to false on JDBC Connection [com.mysql.jdbc.JDBC4Connection@62230c58]
+21-06-14 dao.TeacherMapper.teacherStu ==>  Preparing: select sid,s.name sname,s.tid stid,t.name tname,t.teacherid tid from student s,teacher t where s.tid=t.teacherid and t.teacherid=? 
+21-06-14 dao.TeacherMapper.teacherStu ==> Parameters: 1(Integer)
+21-06-14 dao.TeacherMapper.teacherStu <==      Total: 4
+21-06-14 org.apache.ibatis.transaction.jdbc.JdbcTransaction Resetting autocommit to true on JDBC Connection [com.mysql.jdbc.JDBC4Connection@62230c58]
+21-06-14 org.apache.ibatis.transaction.jdbc.JdbcTransaction Closing JDBC Connection [com.mysql.jdbc.JDBC4Connection@62230c58]
+21-06-14 org.apache.ibatis.datasource.pooled.PooledDataSource Returned connection 1646464088 to pool.
+21-06-14 org.apache.ibatis.logging.LogFactory Logging initialized using 'class org.apache.ibatis.logging.log4j.Log4jImpl' adapter.
+21-06-14 org.apache.ibatis.logging.LogFactory Logging initialized using 'class org.apache.ibatis.logging.log4j.Log4jImpl' adapter.
+21-06-14 org.apache.ibatis.datasource.pooled.PooledDataSource PooledDataSource forcefully closed/removed all connections.
+21-06-14 org.apache.ibatis.datasource.pooled.PooledDataSource PooledDataSource forcefully closed/removed all connections.
+21-06-14 org.apache.ibatis.datasource.pooled.PooledDataSource PooledDataSource forcefully closed/removed all connections.
+21-06-14 org.apache.ibatis.datasource.pooled.PooledDataSource PooledDataSource forcefully closed/removed all connections.
+21-06-14 org.apache.ibatis.transaction.jdbc.JdbcTransaction Opening JDBC Connection
+21-06-14 org.apache.ibatis.datasource.pooled.PooledDataSource Created connection 1950701640.
+21-06-14 org.apache.ibatis.transaction.jdbc.JdbcTransaction Setting autocommit to false on JDBC Connection [com.mysql.jdbc.JDBC4Connection@74455848]
+21-06-14 dao.TeacherMapper.teacherStu2 ==>  Preparing: select * from teacher where teacher id=? 
+21-06-14 dao.TeacherMapper.teacherStu2 ==> Parameters: 1(Integer)
+21-06-14 org.apache.ibatis.logging.LogFactory Logging initialized using 'class org.apache.ibatis.logging.log4j.Log4jImpl' adapter.
+21-06-14 org.apache.ibatis.logging.LogFactory Logging initialized using 'class org.apache.ibatis.logging.log4j.Log4jImpl' adapter.
+21-06-14 org.apache.ibatis.datasource.pooled.PooledDataSource PooledDataSource forcefully closed/removed all connections.
+21-06-14 org.apache.ibatis.datasource.pooled.PooledDataSource PooledDataSource forcefully closed/removed all connections.
+21-06-14 org.apache.ibatis.datasource.pooled.PooledDataSource PooledDataSource forcefully closed/removed all connections.
+21-06-14 org.apache.ibatis.datasource.pooled.PooledDataSource PooledDataSource forcefully closed/removed all connections.
+21-06-14 org.apache.ibatis.transaction.jdbc.JdbcTransaction Opening JDBC Connection
+21-06-14 org.apache.ibatis.datasource.pooled.PooledDataSource Created connection 1950701640.
+21-06-14 org.apache.ibatis.transaction.jdbc.JdbcTransaction Setting autocommit to false on JDBC Connection [com.mysql.jdbc.JDBC4Connection@74455848]
+21-06-14 dao.TeacherMapper.teacherStu2 ==>  Preparing: select * from teacher where teacherid=? 
+21-06-14 dao.TeacherMapper.teacherStu2 ==> Parameters: 1(Integer)
+21-06-14 dao.TeacherMapper.teacherStu2 <==      Total: 1
+21-06-14 org.apache.ibatis.transaction.jdbc.JdbcTransaction Resetting autocommit to true on JDBC Connection [com.mysql.jdbc.JDBC4Connection@74455848]
+21-06-14 org.apache.ibatis.transaction.jdbc.JdbcTransaction Closing JDBC Connection [com.mysql.jdbc.JDBC4Connection@74455848]
+21-06-14 org.apache.ibatis.datasource.pooled.PooledDataSource Returned connection 1950701640 to pool.
+21-06-14 org.apache.ibatis.logging.LogFactory Logging initialized using 'class org.apache.ibatis.logging.log4j.Log4jImpl' adapter.
+21-06-14 org.apache.ibatis.logging.LogFactory Logging initialized using 'class org.apache.ibatis.logging.log4j.Log4jImpl' adapter.
+21-06-14 org.apache.ibatis.datasource.pooled.PooledDataSource PooledDataSource forcefully closed/removed all connections.
+21-06-14 org.apache.ibatis.datasource.pooled.PooledDataSource PooledDataSource forcefully closed/removed all connections.
+21-06-14 org.apache.ibatis.datasource.pooled.PooledDataSource PooledDataSource forcefully closed/removed all connections.
+21-06-14 org.apache.ibatis.datasource.pooled.PooledDataSource PooledDataSource forcefully closed/removed all connections.
+21-06-14 org.apache.ibatis.transaction.jdbc.JdbcTransaction Opening JDBC Connection
+21-06-14 org.apache.ibatis.datasource.pooled.PooledDataSource Created connection 1950701640.
+21-06-14 org.apache.ibatis.transaction.jdbc.JdbcTransaction Setting autocommit to false on JDBC Connection [com.mysql.jdbc.JDBC4Connection@74455848]
+21-06-14 dao.TeacherMapper.teacherStu2 ==>  Preparing: select * from teacher where teacherid=? 
+21-06-14 dao.TeacherMapper.teacherStu2 ==> Parameters: 1(Integer)
+21-06-14 dao.TeacherMapper.teacherStu2 <==      Total: 1
+21-06-14 org.apache.ibatis.transaction.jdbc.JdbcTransaction Resetting autocommit to true on JDBC Connection [com.mysql.jdbc.JDBC4Connection@74455848]
+21-06-14 org.apache.ibatis.transaction.jdbc.JdbcTransaction Closing JDBC Connection [com.mysql.jdbc.JDBC4Connection@74455848]
+21-06-14 org.apache.ibatis.datasource.pooled.PooledDataSource Returned connection 1950701640 to pool.
+21-06-14 org.apache.ibatis.logging.LogFactory Logging initialized using 'class org.apache.ibatis.logging.log4j.Log4jImpl' adapter.
+21-06-14 org.apache.ibatis.logging.LogFactory Logging initialized using 'class org.apache.ibatis.logging.log4j.Log4jImpl' adapter.
+21-06-14 org.apache.ibatis.datasource.pooled.PooledDataSource PooledDataSource forcefully closed/removed all connections.
+21-06-14 org.apache.ibatis.datasource.pooled.PooledDataSource PooledDataSource forcefully closed/removed all connections.
+21-06-14 org.apache.ibatis.datasource.pooled.PooledDataSource PooledDataSource forcefully closed/removed all connections.
+21-06-14 org.apache.ibatis.datasource.pooled.PooledDataSource PooledDataSource forcefully closed/removed all connections.
+21-06-14 org.apache.ibatis.transaction.jdbc.JdbcTransaction Opening JDBC Connection
+21-06-14 org.apache.ibatis.datasource.pooled.PooledDataSource Created connection 1950701640.
+21-06-14 org.apache.ibatis.transaction.jdbc.JdbcTransaction Setting autocommit to false on JDBC Connection [com.mysql.jdbc.JDBC4Connection@74455848]
+21-06-14 dao.TeacherMapper.teacherStu2 ==>  Preparing: select * from teacher where teacherid=? 
+21-06-14 dao.TeacherMapper.teacherStu2 ==> Parameters: 1(Integer)
+21-06-14 dao.TeacherMapper.findStudent ====>  Preparing: select * from student where tid = ? 
+21-06-14 dao.TeacherMapper.findStudent ====> Parameters: 1(Integer)
+21-06-14 dao.TeacherMapper.findStudent <====      Total: 4
+21-06-14 dao.TeacherMapper.teacherStu2 <==      Total: 1
+21-06-14 org.apache.ibatis.transaction.jdbc.JdbcTransaction Resetting autocommit to true on JDBC Connection [com.mysql.jdbc.JDBC4Connection@74455848]
+21-06-14 org.apache.ibatis.transaction.jdbc.JdbcTransaction Closing JDBC Connection [com.mysql.jdbc.JDBC4Connection@74455848]
+21-06-14 org.apache.ibatis.datasource.pooled.PooledDataSource Returned connection 1950701640 to pool.

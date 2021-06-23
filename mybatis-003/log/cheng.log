@@ -1,0 +1,168 @@
+
+21-06-12 org.apache.ibatis.logging.LogFactory Logging initialized using 'class org.apache.ibatis.logging.log4j.Log4jImpl' adapter.
+21-06-12 org.apache.ibatis.logging.LogFactory Logging initialized using 'class org.apache.ibatis.logging.log4j.Log4jImpl' adapter.
+21-06-12 org.apache.ibatis.datasource.pooled.PooledDataSource PooledDataSource forcefully closed/removed all connections.
+21-06-12 org.apache.ibatis.datasource.pooled.PooledDataSource PooledDataSource forcefully closed/removed all connections.
+21-06-12 org.apache.ibatis.datasource.pooled.PooledDataSource PooledDataSource forcefully closed/removed all connections.
+21-06-12 org.apache.ibatis.datasource.pooled.PooledDataSource PooledDataSource forcefully closed/removed all connections.
+21-06-12 org.apache.ibatis.transaction.jdbc.JdbcTransaction Opening JDBC Connection
+21-06-12 org.apache.ibatis.datasource.pooled.PooledDataSource Created connection 879583678.
+21-06-12 org.apache.ibatis.transaction.jdbc.JdbcTransaction Setting autocommit to false on JDBC Connection [com.mysql.jdbc.JDBC4Connection@346d61be]
+21-06-12 dao.CustomerMapper.pageList ==>  Preparing: select * from mybatis.customer limit ?,? 
+21-06-12 dao.CustomerMapper.pageList ==> Parameters: 0(Integer), 2(Integer)
+21-06-12 org.apache.ibatis.logging.LogFactory Logging initialized using 'class org.apache.ibatis.logging.log4j.Log4jImpl' adapter.
+21-06-12 org.apache.ibatis.logging.LogFactory Logging initialized using 'class org.apache.ibatis.logging.log4j.Log4jImpl' adapter.
+21-06-12 org.apache.ibatis.datasource.pooled.PooledDataSource PooledDataSource forcefully closed/removed all connections.
+21-06-12 org.apache.ibatis.datasource.pooled.PooledDataSource PooledDataSource forcefully closed/removed all connections.
+21-06-12 org.apache.ibatis.datasource.pooled.PooledDataSource PooledDataSource forcefully closed/removed all connections.
+21-06-12 org.apache.ibatis.datasource.pooled.PooledDataSource PooledDataSource forcefully closed/removed all connections.
+21-06-12 org.apache.ibatis.transaction.jdbc.JdbcTransaction Opening JDBC Connection
+21-06-12 org.apache.ibatis.datasource.pooled.PooledDataSource Created connection 879583678.
+21-06-12 org.apache.ibatis.transaction.jdbc.JdbcTransaction Setting autocommit to false on JDBC Connection [com.mysql.jdbc.JDBC4Connection@346d61be]
+21-06-12 dao.CustomerMapper.pageList ==>  Preparing: select * from mybatis.customer limit ?,? 
+21-06-12 dao.CustomerMapper.pageList ==> Parameters: 0(Integer), 2(Integer)
+21-06-12 org.apache.ibatis.logging.LogFactory Logging initialized using 'class org.apache.ibatis.logging.log4j.Log4jImpl' adapter.
+21-06-12 org.apache.ibatis.logging.LogFactory Logging initialized using 'class org.apache.ibatis.logging.log4j.Log4jImpl' adapter.
+21-06-12 org.apache.ibatis.datasource.pooled.PooledDataSource PooledDataSource forcefully closed/removed all connections.
+21-06-12 org.apache.ibatis.datasource.pooled.PooledDataSource PooledDataSource forcefully closed/removed all connections.
+21-06-12 org.apache.ibatis.datasource.pooled.PooledDataSource PooledDataSource forcefully closed/removed all connections.
+21-06-12 org.apache.ibatis.datasource.pooled.PooledDataSource PooledDataSource forcefully closed/removed all connections.
+21-06-12 org.apache.ibatis.transaction.jdbc.JdbcTransaction Opening JDBC Connection
+21-06-12 org.apache.ibatis.datasource.pooled.PooledDataSource Created connection 879583678.
+21-06-12 org.apache.ibatis.transaction.jdbc.JdbcTransaction Setting autocommit to false on JDBC Connection [com.mysql.jdbc.JDBC4Connection@346d61be]
+21-06-12 dao.CustomerMapper.pageList ==>  Preparing: select * from mybatis.customer limit ?,? 
+21-06-12 dao.CustomerMapper.pageList ==> Parameters: 0(Integer), 2(Integer)
+21-06-12 org.apache.ibatis.logging.LogFactory Logging initialized using 'class org.apache.ibatis.logging.log4j.Log4jImpl' adapter.
+21-06-12 org.apache.ibatis.logging.LogFactory Logging initialized using 'class org.apache.ibatis.logging.log4j.Log4jImpl' adapter.
+21-06-12 org.apache.ibatis.datasource.pooled.PooledDataSource PooledDataSource forcefully closed/removed all connections.
+21-06-12 org.apache.ibatis.datasource.pooled.PooledDataSource PooledDataSource forcefully closed/removed all connections.
+21-06-12 org.apache.ibatis.datasource.pooled.PooledDataSource PooledDataSource forcefully closed/removed all connections.
+21-06-12 org.apache.ibatis.datasource.pooled.PooledDataSource PooledDataSource forcefully closed/removed all connections.
+21-06-12 org.apache.ibatis.transaction.jdbc.JdbcTransaction Opening JDBC Connection
+21-06-12 org.apache.ibatis.datasource.pooled.PooledDataSource Created connection 879583678.
+21-06-12 org.apache.ibatis.transaction.jdbc.JdbcTransaction Setting autocommit to false on JDBC Connection [com.mysql.jdbc.JDBC4Connection@346d61be]
+21-06-12 dao.CustomerMapper.pageList ==>  Preparing: select * from mybatis.customer limit ?,? 
+21-06-12 dao.CustomerMapper.pageList ==> Parameters: 0(Integer), 2(Integer)
+21-06-12 dao.CustomerMapper.pageList <==      Total: 2
+21-06-12 org.apache.ibatis.transaction.jdbc.JdbcTransaction Resetting autocommit to true on JDBC Connection [com.mysql.jdbc.JDBC4Connection@346d61be]
+21-06-12 org.apache.ibatis.transaction.jdbc.JdbcTransaction Closing JDBC Connection [com.mysql.jdbc.JDBC4Connection@346d61be]
+21-06-12 org.apache.ibatis.datasource.pooled.PooledDataSource Returned connection 879583678 to pool.
+21-06-12 org.apache.ibatis.logging.LogFactory Logging initialized using 'class org.apache.ibatis.logging.log4j.Log4jImpl' adapter.
+21-06-12 org.apache.ibatis.logging.LogFactory Logging initialized using 'class org.apache.ibatis.logging.log4j.Log4jImpl' adapter.
+21-06-12 org.apache.ibatis.datasource.pooled.PooledDataSource PooledDataSource forcefully closed/removed all connections.
+21-06-12 org.apache.ibatis.datasource.pooled.PooledDataSource PooledDataSource forcefully closed/removed all connections.
+21-06-12 org.apache.ibatis.datasource.pooled.PooledDataSource PooledDataSource forcefully closed/removed all connections.
+21-06-12 org.apache.ibatis.datasource.pooled.PooledDataSource PooledDataSource forcefully closed/removed all connections.
+21-06-12 org.apache.ibatis.logging.LogFactory Logging initialized using 'class org.apache.ibatis.logging.log4j.Log4jImpl' adapter.
+21-06-12 org.apache.ibatis.logging.LogFactory Logging initialized using 'class org.apache.ibatis.logging.log4j.Log4jImpl' adapter.
+21-06-12 org.apache.ibatis.datasource.pooled.PooledDataSource PooledDataSource forcefully closed/removed all connections.
+21-06-12 org.apache.ibatis.datasource.pooled.PooledDataSource PooledDataSource forcefully closed/removed all connections.
+21-06-12 org.apache.ibatis.datasource.pooled.PooledDataSource PooledDataSource forcefully closed/removed all connections.
+21-06-12 org.apache.ibatis.datasource.pooled.PooledDataSource PooledDataSource forcefully closed/removed all connections.
+21-06-12 org.apache.ibatis.logging.LogFactory Logging initialized using 'class org.apache.ibatis.logging.log4j.Log4jImpl' adapter.
+21-06-12 org.apache.ibatis.logging.LogFactory Logging initialized using 'class org.apache.ibatis.logging.log4j.Log4jImpl' adapter.
+21-06-12 org.apache.ibatis.datasource.pooled.PooledDataSource PooledDataSource forcefully closed/removed all connections.
+21-06-12 org.apache.ibatis.datasource.pooled.PooledDataSource PooledDataSource forcefully closed/removed all connections.
+21-06-12 org.apache.ibatis.datasource.pooled.PooledDataSource PooledDataSource forcefully closed/removed all connections.
+21-06-12 org.apache.ibatis.datasource.pooled.PooledDataSource PooledDataSource forcefully closed/removed all connections.
+21-06-12 org.apache.ibatis.logging.LogFactory Logging initialized using 'class org.apache.ibatis.logging.log4j.Log4jImpl' adapter.
+21-06-12 org.apache.ibatis.logging.LogFactory Logging initialized using 'class org.apache.ibatis.logging.log4j.Log4jImpl' adapter.
+21-06-12 org.apache.ibatis.datasource.pooled.PooledDataSource PooledDataSource forcefully closed/removed all connections.
+21-06-12 org.apache.ibatis.datasource.pooled.PooledDataSource PooledDataSource forcefully closed/removed all connections.
+21-06-12 org.apache.ibatis.datasource.pooled.PooledDataSource PooledDataSource forcefully closed/removed all connections.
+21-06-12 org.apache.ibatis.datasource.pooled.PooledDataSource PooledDataSource forcefully closed/removed all connections.
+21-06-12 org.apache.ibatis.logging.LogFactory Logging initialized using 'class org.apache.ibatis.logging.log4j.Log4jImpl' adapter.
+21-06-12 org.apache.ibatis.logging.LogFactory Logging initialized using 'class org.apache.ibatis.logging.log4j.Log4jImpl' adapter.
+21-06-12 org.apache.ibatis.datasource.pooled.PooledDataSource PooledDataSource forcefully closed/removed all connections.
+21-06-12 org.apache.ibatis.datasource.pooled.PooledDataSource PooledDataSource forcefully closed/removed all connections.
+21-06-12 org.apache.ibatis.datasource.pooled.PooledDataSource PooledDataSource forcefully closed/removed all connections.
+21-06-12 org.apache.ibatis.datasource.pooled.PooledDataSource PooledDataSource forcefully closed/removed all connections.
+21-06-12 org.apache.ibatis.logging.LogFactory Logging initialized using 'class org.apache.ibatis.logging.log4j.Log4jImpl' adapter.
+21-06-12 org.apache.ibatis.logging.LogFactory Logging initialized using 'class org.apache.ibatis.logging.log4j.Log4jImpl' adapter.
+21-06-12 org.apache.ibatis.datasource.pooled.PooledDataSource PooledDataSource forcefully closed/removed all connections.
+21-06-12 org.apache.ibatis.datasource.pooled.PooledDataSource PooledDataSource forcefully closed/removed all connections.
+21-06-12 org.apache.ibatis.datasource.pooled.PooledDataSource PooledDataSource forcefully closed/removed all connections.
+21-06-12 org.apache.ibatis.datasource.pooled.PooledDataSource PooledDataSource forcefully closed/removed all connections.
+21-06-12 org.apache.ibatis.transaction.jdbc.JdbcTransaction Opening JDBC Connection
+21-06-12 org.apache.ibatis.datasource.pooled.PooledDataSource Created connection 717176949.
+21-06-12 org.apache.ibatis.transaction.jdbc.JdbcTransaction Setting autocommit to false on JDBC Connection [com.mysql.jdbc.JDBC4Connection@2abf4075]
+21-06-12 dao.CustomerMapper.pageList ==>  Preparing: select * from mybatis.customer limit ?,? 
+21-06-12 dao.CustomerMapper.pageList ==> Parameters: null, null
+21-06-12 org.apache.ibatis.logging.LogFactory Logging initialized using 'class org.apache.ibatis.logging.log4j.Log4jImpl' adapter.
+21-06-12 org.apache.ibatis.logging.LogFactory Logging initialized using 'class org.apache.ibatis.logging.log4j.Log4jImpl' adapter.
+21-06-12 org.apache.ibatis.datasource.pooled.PooledDataSource PooledDataSource forcefully closed/removed all connections.
+21-06-12 org.apache.ibatis.datasource.pooled.PooledDataSource PooledDataSource forcefully closed/removed all connections.
+21-06-12 org.apache.ibatis.datasource.pooled.PooledDataSource PooledDataSource forcefully closed/removed all connections.
+21-06-12 org.apache.ibatis.datasource.pooled.PooledDataSource PooledDataSource forcefully closed/removed all connections.
+21-06-12 org.apache.ibatis.transaction.jdbc.JdbcTransaction Opening JDBC Connection
+21-06-12 org.apache.ibatis.datasource.pooled.PooledDataSource Created connection 717176949.
+21-06-12 org.apache.ibatis.transaction.jdbc.JdbcTransaction Setting autocommit to false on JDBC Connection [com.mysql.jdbc.JDBC4Connection@2abf4075]
+21-06-12 dao.CustomerMapper.pageList ==>  Preparing: select * from mybatis.customer limit ?,? 
+21-06-12 dao.CustomerMapper.pageList ==> Parameters: null, null
+21-06-12 org.apache.ibatis.logging.LogFactory Logging initialized using 'class org.apache.ibatis.logging.log4j.Log4jImpl' adapter.
+21-06-12 org.apache.ibatis.logging.LogFactory Logging initialized using 'class org.apache.ibatis.logging.log4j.Log4jImpl' adapter.
+21-06-12 org.apache.ibatis.datasource.pooled.PooledDataSource PooledDataSource forcefully closed/removed all connections.
+21-06-12 org.apache.ibatis.datasource.pooled.PooledDataSource PooledDataSource forcefully closed/removed all connections.
+21-06-12 org.apache.ibatis.datasource.pooled.PooledDataSource PooledDataSource forcefully closed/removed all connections.
+21-06-12 org.apache.ibatis.datasource.pooled.PooledDataSource PooledDataSource forcefully closed/removed all connections.
+21-06-12 org.apache.ibatis.transaction.jdbc.JdbcTransaction Opening JDBC Connection
+21-06-12 org.apache.ibatis.datasource.pooled.PooledDataSource Created connection 717176949.
+21-06-12 org.apache.ibatis.transaction.jdbc.JdbcTransaction Setting autocommit to false on JDBC Connection [com.mysql.jdbc.JDBC4Connection@2abf4075]
+21-06-12 dao.CustomerMapper.pageList ==>  Preparing: select * from mybatis.customer limit ?,? 
+21-06-12 dao.CustomerMapper.pageList ==> Parameters: null, null
+21-06-12 org.apache.ibatis.logging.LogFactory Logging initialized using 'class org.apache.ibatis.logging.log4j.Log4jImpl' adapter.
+21-06-12 org.apache.ibatis.logging.LogFactory Logging initialized using 'class org.apache.ibatis.logging.log4j.Log4jImpl' adapter.
+21-06-12 org.apache.ibatis.datasource.pooled.PooledDataSource PooledDataSource forcefully closed/removed all connections.
+21-06-12 org.apache.ibatis.datasource.pooled.PooledDataSource PooledDataSource forcefully closed/removed all connections.
+21-06-12 org.apache.ibatis.datasource.pooled.PooledDataSource PooledDataSource forcefully closed/removed all connections.
+21-06-12 org.apache.ibatis.datasource.pooled.PooledDataSource PooledDataSource forcefully closed/removed all connections.
+21-06-12 org.apache.ibatis.transaction.jdbc.JdbcTransaction Opening JDBC Connection
+21-06-12 org.apache.ibatis.datasource.pooled.PooledDataSource Created connection 1997353766.
+21-06-12 org.apache.ibatis.transaction.jdbc.JdbcTransaction Setting autocommit to false on JDBC Connection [com.mysql.jdbc.JDBC4Connection@770d3326]
+21-06-12 dao.CustomerMapper.pageList ==>  Preparing: select * from mybatis.customer limit ?,? 
+21-06-12 dao.CustomerMapper.pageList ==> Parameters: null, null
+21-06-12 org.apache.ibatis.logging.LogFactory Logging initialized using 'class org.apache.ibatis.logging.log4j.Log4jImpl' adapter.
+21-06-12 org.apache.ibatis.logging.LogFactory Logging initialized using 'class org.apache.ibatis.logging.log4j.Log4jImpl' adapter.
+21-06-12 org.apache.ibatis.datasource.pooled.PooledDataSource PooledDataSource forcefully closed/removed all connections.
+21-06-12 org.apache.ibatis.datasource.pooled.PooledDataSource PooledDataSource forcefully closed/removed all connections.
+21-06-12 org.apache.ibatis.datasource.pooled.PooledDataSource PooledDataSource forcefully closed/removed all connections.
+21-06-12 org.apache.ibatis.datasource.pooled.PooledDataSource PooledDataSource forcefully closed/removed all connections.
+21-06-12 org.apache.ibatis.transaction.jdbc.JdbcTransaction Opening JDBC Connection
+21-06-12 org.apache.ibatis.datasource.pooled.PooledDataSource Created connection 1997353766.
+21-06-12 org.apache.ibatis.transaction.jdbc.JdbcTransaction Setting autocommit to false on JDBC Connection [com.mysql.jdbc.JDBC4Connection@770d3326]
+21-06-12 dao.CustomerMapper.pageList ==>  Preparing: select * from mybatis.customer limit ?,? 
+21-06-12 dao.CustomerMapper.pageList ==> Parameters: null, null
+21-06-12 org.apache.ibatis.logging.LogFactory Logging initialized using 'class org.apache.ibatis.logging.log4j.Log4jImpl' adapter.
+21-06-12 org.apache.ibatis.logging.LogFactory Logging initialized using 'class org.apache.ibatis.logging.log4j.Log4jImpl' adapter.
+21-06-12 org.apache.ibatis.datasource.pooled.PooledDataSource PooledDataSource forcefully closed/removed all connections.
+21-06-12 org.apache.ibatis.datasource.pooled.PooledDataSource PooledDataSource forcefully closed/removed all connections.
+21-06-12 org.apache.ibatis.datasource.pooled.PooledDataSource PooledDataSource forcefully closed/removed all connections.
+21-06-12 org.apache.ibatis.datasource.pooled.PooledDataSource PooledDataSource forcefully closed/removed all connections.
+21-06-12 org.apache.ibatis.transaction.jdbc.JdbcTransaction Opening JDBC Connection
+21-06-12 org.apache.ibatis.datasource.pooled.PooledDataSource Created connection 1997353766.
+21-06-12 org.apache.ibatis.transaction.jdbc.JdbcTransaction Setting autocommit to false on JDBC Connection [com.mysql.jdbc.JDBC4Connection@770d3326]
+21-06-12 dao.CustomerMapper.pageList2 ==>  Preparing: select * from mybatis.customer 
+21-06-12 dao.CustomerMapper.pageList2 ==> Parameters: 
+21-06-12 org.apache.ibatis.transaction.jdbc.JdbcTransaction Resetting autocommit to true on JDBC Connection [com.mysql.jdbc.JDBC4Connection@770d3326]
+21-06-12 org.apache.ibatis.transaction.jdbc.JdbcTransaction Closing JDBC Connection [com.mysql.jdbc.JDBC4Connection@770d3326]
+21-06-12 org.apache.ibatis.datasource.pooled.PooledDataSource Returned connection 1997353766 to pool.
+21-06-12 org.apache.ibatis.logging.LogFactory Logging initialized using 'class org.apache.ibatis.logging.log4j.Log4jImpl' adapter.
+21-06-12 org.apache.ibatis.logging.LogFactory Logging initialized using 'class org.apache.ibatis.logging.log4j.Log4jImpl' adapter.
+21-06-12 org.apache.ibatis.datasource.pooled.PooledDataSource PooledDataSource forcefully closed/removed all connections.
+21-06-12 org.apache.ibatis.datasource.pooled.PooledDataSource PooledDataSource forcefully closed/removed all connections.
+21-06-12 org.apache.ibatis.datasource.pooled.PooledDataSource PooledDataSource forcefully closed/removed all connections.
+21-06-12 org.apache.ibatis.datasource.pooled.PooledDataSource PooledDataSource forcefully closed/removed all connections.
+21-06-12 org.apache.ibatis.logging.LogFactory Logging initialized using 'class org.apache.ibatis.logging.log4j.Log4jImpl' adapter.
+21-06-12 org.apache.ibatis.logging.LogFactory Logging initialized using 'class org.apache.ibatis.logging.log4j.Log4jImpl' adapter.
+21-06-12 org.apache.ibatis.datasource.pooled.PooledDataSource PooledDataSource forcefully closed/removed all connections.
+21-06-12 org.apache.ibatis.datasource.pooled.PooledDataSource PooledDataSource forcefully closed/removed all connections.
+21-06-12 org.apache.ibatis.datasource.pooled.PooledDataSource PooledDataSource forcefully closed/removed all connections.
+21-06-12 org.apache.ibatis.datasource.pooled.PooledDataSource PooledDataSource forcefully closed/removed all connections.
+21-06-12 org.apache.ibatis.transaction.jdbc.JdbcTransaction Opening JDBC Connection
+21-06-12 org.apache.ibatis.datasource.pooled.PooledDataSource Created connection 1997353766.
+21-06-12 org.apache.ibatis.transaction.jdbc.JdbcTransaction Setting autocommit to false on JDBC Connection [com.mysql.jdbc.JDBC4Connection@770d3326]
+21-06-12 dao.CustomerMapper.pageList2 ==>  Preparing: select * from mybatis.customer 
+21-06-12 dao.CustomerMapper.pageList2 ==> Parameters: 
+21-06-12 org.apache.ibatis.transaction.jdbc.JdbcTransaction Resetting autocommit to true on JDBC Connection [com.mysql.jdbc.JDBC4Connection@770d3326]
+21-06-12 org.apache.ibatis.transaction.jdbc.JdbcTransaction Closing JDBC Connection [com.mysql.jdbc.JDBC4Connection@770d3326]
+21-06-12 org.apache.ibatis.datasource.pooled.PooledDataSource Returned connection 1997353766 to pool.

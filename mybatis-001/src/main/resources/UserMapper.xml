@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper
+        PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+
+<!--namespace=绑定一个对应的DAO/Mapper接口,注意：包名是从Java开始的-->
+<mapper namespace="dao.UserDAO">
+    <resultMap id="pojoResultMap" type="pojo.User">
+        <result column="" property=""></result>
+    </resultMap>
+    <!--id写方法名-->
+    <select id="queryUserForList" resultType="pojo.User" resultMap="pojoResultMap">
+        select * from mybatis.user
+    </select>
+
+    <select id="getUserById" resultType="pojo.User" parameterType="Integer">
+        select * from mybatis.user where id = #{id}
+    </select>
+
+    <select id="insertUser" parameterType="pojo.User" resultType="Integer">
+        insert into mybatis.user (id,username,password) values (#{id},#{username},#{password})
+    </select>
+    
+    <update id="updateUser" parameterType="pojo.User">
+        update mybatis.user
+        set id =#{id},username=#{username}, password=#{password}
+        where id=#{id};
+    </update>
+
+    <delete id="deleteById" parameterType="Integer">
+        delete from mybatis.user where id=#{id}
+    </delete>
+
+<update id="updateUserMap" parameterType="map">
+    update mybatis.user set id=#{setId},username=#{username},password=#{password} where id=#{id};
+</update>
+    <select id="getUserLike" parameterType="String" resultType="pojo.User">
+        select id,username,password from mybatis.user where username like "%"#{str}"%"
+    </select>
+</mapper>

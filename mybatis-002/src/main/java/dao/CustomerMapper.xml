@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper
+        PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="dao.CustomerMapper" >
+    <!--查询多个客户-->
+   <select id="queryForList" resultType="Customer">
+       select * from mybatis.customer
+   </select>
+    <!--根据id查询单个用户-->
+    <select id="queryForOne" resultType="pojo.Customer" parameterType="Integer">
+       select * from mybatis.customer where id = #{id}
+   </select>
+
+    <!--//根据id删除单个用户-->
+    <delete id="deleteOne" parameterType="integer">
+        delete from mybatis.customer where id =#{id}
+    </delete>
+    <!--//插入一个客户-->
+    <insert id="addOneCustomer" parameterType="Customer">
+        insert into mybatis.customer (id,customername,customerpassword) values(#{id},#{customerName},#{customerPassword})
+    </insert>
+
+  <!--  //根据id更新一个客户信息-->
+    <update id="updateCustomerById" parameterType="map">
+        update mybatis.customer set id=#{id},customername=#{customerName},customerpassword=#{customerPassword}
+    </update>
+
+    <!--根据一个字符查询一个客户信息-->
+    <select id="queryForStr" parameterType="string">
+        select * from mybatis.customer where like "%"#{str}"%"
+    </select>
+</mapper>

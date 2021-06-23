@@ -1,0 +1,7 @@
+# Project exclude paths
+/mybatis-001/target/
+/mybatis-002/target/
+/mybatis-003/target/
+/mybatis-004interface/target/
+/mybatis-005manyForOne/target/
+/mybatis-006oneForMany/target/

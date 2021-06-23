@@ -1,0 +1,72 @@
+21-06-13 org.apache.ibatis.logging.LogFactory Logging initialized using 'class org.apache.ibatis.logging.log4j.Log4jImpl' adapter.
+21-06-13 org.apache.ibatis.logging.LogFactory Logging initialized using 'class org.apache.ibatis.logging.log4j.Log4jImpl' adapter.
+21-06-13 org.apache.ibatis.datasource.pooled.PooledDataSource PooledDataSource forcefully closed/removed all connections.
+21-06-13 org.apache.ibatis.datasource.pooled.PooledDataSource PooledDataSource forcefully closed/removed all connections.
+21-06-13 org.apache.ibatis.datasource.pooled.PooledDataSource PooledDataSource forcefully closed/removed all connections.
+21-06-13 org.apache.ibatis.datasource.pooled.PooledDataSource PooledDataSource forcefully closed/removed all connections.
+21-06-13 org.apache.ibatis.transaction.jdbc.JdbcTransaction Opening JDBC Connection
+21-06-13 org.apache.ibatis.datasource.pooled.PooledDataSource Created connection 989447607.
+21-06-13 dao.CustomerMapper.queryForOne ==>  Preparing: select * from where id = ? 
+21-06-13 dao.CustomerMapper.queryForOne ==> Parameters: 2(Integer)
+21-06-13 org.apache.ibatis.logging.LogFactory Logging initialized using 'class org.apache.ibatis.logging.log4j.Log4jImpl' adapter.
+21-06-13 org.apache.ibatis.logging.LogFactory Logging initialized using 'class org.apache.ibatis.logging.log4j.Log4jImpl' adapter.
+21-06-13 org.apache.ibatis.datasource.pooled.PooledDataSource PooledDataSource forcefully closed/removed all connections.
+21-06-13 org.apache.ibatis.datasource.pooled.PooledDataSource PooledDataSource forcefully closed/removed all connections.
+21-06-13 org.apache.ibatis.datasource.pooled.PooledDataSource PooledDataSource forcefully closed/removed all connections.
+21-06-13 org.apache.ibatis.datasource.pooled.PooledDataSource PooledDataSource forcefully closed/removed all connections.
+21-06-13 org.apache.ibatis.transaction.jdbc.JdbcTransaction Opening JDBC Connection
+21-06-13 org.apache.ibatis.datasource.pooled.PooledDataSource Created connection 989447607.
+21-06-13 dao.CustomerMapper.queryForOne ==>  Preparing: select * from mybatis.customer where id = ? 
+21-06-13 dao.CustomerMapper.queryForOne ==> Parameters: 2(Integer)
+21-06-13 dao.CustomerMapper.queryForOne <==      Total: 1
+21-06-13 org.apache.ibatis.transaction.jdbc.JdbcTransaction Closing JDBC Connection [com.mysql.jdbc.JDBC4Connection@3af9c5b7]
+21-06-13 org.apache.ibatis.datasource.pooled.PooledDataSource Returned connection 989447607 to pool.
+21-06-13 org.apache.ibatis.logging.LogFactory Logging initialized using 'class org.apache.ibatis.logging.log4j.Log4jImpl' adapter.
+21-06-13 org.apache.ibatis.logging.LogFactory Logging initialized using 'class org.apache.ibatis.logging.log4j.Log4jImpl' adapter.
+21-06-13 org.apache.ibatis.datasource.pooled.PooledDataSource PooledDataSource forcefully closed/removed all connections.
+21-06-13 org.apache.ibatis.datasource.pooled.PooledDataSource PooledDataSource forcefully closed/removed all connections.
+21-06-13 org.apache.ibatis.datasource.pooled.PooledDataSource PooledDataSource forcefully closed/removed all connections.
+21-06-13 org.apache.ibatis.datasource.pooled.PooledDataSource PooledDataSource forcefully closed/removed all connections.
+21-06-13 org.apache.ibatis.transaction.jdbc.JdbcTransaction Opening JDBC Connection
+21-06-13 org.apache.ibatis.datasource.pooled.PooledDataSource Created connection 1146825051.
+21-06-13 dao.CustomerMapper.updateById ==>  Preparing: update mybatis.customer set id=?,customername=?,customerpassword=? 
+21-06-13 dao.CustomerMapper.updateById ==> Parameters: 2(Integer), 晓暗(String), 456852(String)
+21-06-13 org.apache.ibatis.logging.LogFactory Logging initialized using 'class org.apache.ibatis.logging.log4j.Log4jImpl' adapter.
+21-06-13 org.apache.ibatis.logging.LogFactory Logging initialized using 'class org.apache.ibatis.logging.log4j.Log4jImpl' adapter.
+21-06-13 org.apache.ibatis.datasource.pooled.PooledDataSource PooledDataSource forcefully closed/removed all connections.
+21-06-13 org.apache.ibatis.datasource.pooled.PooledDataSource PooledDataSource forcefully closed/removed all connections.
+21-06-13 org.apache.ibatis.datasource.pooled.PooledDataSource PooledDataSource forcefully closed/removed all connections.
+21-06-13 org.apache.ibatis.datasource.pooled.PooledDataSource PooledDataSource forcefully closed/removed all connections.
+21-06-13 org.apache.ibatis.transaction.jdbc.JdbcTransaction Opening JDBC Connection
+21-06-13 org.apache.ibatis.datasource.pooled.PooledDataSource Created connection 1146825051.
+21-06-13 dao.CustomerMapper.updateById ==>  Preparing: update mybatis.customer set id=?,customername=?,customerpassword=? where id=? 
+21-06-13 dao.CustomerMapper.updateById ==> Parameters: 2(Integer), 晓暗(String), 456852(String), 2(Integer)
+21-06-13 dao.CustomerMapper.updateById <==    Updates: 1
+21-06-13 org.apache.ibatis.transaction.jdbc.JdbcTransaction Closing JDBC Connection [com.mysql.jdbc.JDBC4Connection@445b295b]
+21-06-13 org.apache.ibatis.datasource.pooled.PooledDataSource Returned connection 1146825051 to pool.
+21-06-13 org.apache.ibatis.logging.LogFactory Logging initialized using 'class org.apache.ibatis.logging.log4j.Log4jImpl' adapter.
+21-06-13 org.apache.ibatis.logging.LogFactory Logging initialized using 'class org.apache.ibatis.logging.log4j.Log4jImpl' adapter.
+21-06-13 org.apache.ibatis.datasource.pooled.PooledDataSource PooledDataSource forcefully closed/removed all connections.
+21-06-13 org.apache.ibatis.datasource.pooled.PooledDataSource PooledDataSource forcefully closed/removed all connections.
+21-06-13 org.apache.ibatis.datasource.pooled.PooledDataSource PooledDataSource forcefully closed/removed all connections.
+21-06-13 org.apache.ibatis.datasource.pooled.PooledDataSource PooledDataSource forcefully closed/removed all connections.
+21-06-13 org.apache.ibatis.transaction.jdbc.JdbcTransaction Opening JDBC Connection
+21-06-13 org.apache.ibatis.datasource.pooled.PooledDataSource Created connection 1239807799.
+21-06-13 dao.CustomerMapper.addForOne ==>  Preparing: insert into mybatis.customer (id,customername,customerpassword) values(?,?,?) 
+21-06-13 dao.CustomerMapper.addForOne ==> Parameters: 5(Integer), 晓昏(String), 5468521(String)
+21-06-13 dao.CustomerMapper.addForOne <==    Updates: 1
+21-06-13 org.apache.ibatis.transaction.jdbc.JdbcTransaction Closing JDBC Connection [com.mysql.jdbc.JDBC4Connection@49e5f737]
+21-06-13 org.apache.ibatis.datasource.pooled.PooledDataSource Returned connection 1239807799 to pool.
+21-06-13 org.apache.ibatis.logging.LogFactory Logging initialized using 'class org.apache.ibatis.logging.log4j.Log4jImpl' adapter.
+21-06-13 org.apache.ibatis.logging.LogFactory Logging initialized using 'class org.apache.ibatis.logging.log4j.Log4jImpl' adapter.
+21-06-13 org.apache.ibatis.datasource.pooled.PooledDataSource PooledDataSource forcefully closed/removed all connections.
+21-06-13 org.apache.ibatis.datasource.pooled.PooledDataSource PooledDataSource forcefully closed/removed all connections.
+21-06-13 org.apache.ibatis.datasource.pooled.PooledDataSource PooledDataSource forcefully closed/removed all connections.
+21-06-13 org.apache.ibatis.datasource.pooled.PooledDataSource PooledDataSource forcefully closed/removed all connections.
+21-06-13 org.apache.ibatis.transaction.jdbc.JdbcTransaction Opening JDBC Connection
+21-06-13 org.apache.ibatis.datasource.pooled.PooledDataSource Created connection 239372207.
+21-06-13 dao.CustomerMapper.deleteForOne ==>  Preparing: delete from mybatis.customer where id = ? 
+21-06-13 dao.CustomerMapper.deleteForOne ==> Parameters: 5(Integer)
+21-06-13 dao.CustomerMapper.deleteForOne <==    Updates: 1
+21-06-13 org.apache.ibatis.transaction.jdbc.JdbcTransaction Closing JDBC Connection [com.mysql.jdbc.JDBC4Connection@e4487af]
+21-06-13 org.apache.ibatis.datasource.pooled.PooledDataSource Returned connection 239372207 to pool.
