@@ -28,14 +28,6 @@ public class TeacherMapperTeat {
  }
 
 
- @Test
- public void test2() {
-  SqlSession sqlSession = MybatisUtils.getSqlSession();
-  TeacherMapper mapper = sqlSession.getMapper(TeacherMapper.class);
-  Teacher teacher = mapper.teacherStu2(1);
-  System.out.println(teacher);
-  sqlSession.close();
- }
 
  public static void main(String[] args) {
   int[] ints = new int[3];
@@ -50,9 +42,5 @@ public class TeacherMapperTeat {
   }
   System.out.println(sum);
  }
- @Test
- public void test11() {
 
-
- }
 }
