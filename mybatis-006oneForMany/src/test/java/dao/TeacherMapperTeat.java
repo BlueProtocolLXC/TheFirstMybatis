@@ -23,7 +23,11 @@ public class TeacherMapperTeat {
   System.out.println("你好啊！！");
  }
 
+@Test
+ public void testA() {
+ System.out.println("a why");
 
+}
 
 
 
