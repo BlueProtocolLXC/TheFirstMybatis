@@ -20,27 +20,11 @@ import java.util.Scanner;
 public class TeacherMapperTeat {
  @Test
  public void test() {
-  SqlSession sqlSession = MybatisUtils.getSqlSession();
-  TeacherMapper mapper = sqlSession.getMapper(TeacherMapper.class);
-  Teacher teacher1 = mapper.teacherStu(1);
-  System.out.println(teacher1);
-  sqlSession.close();
+  System.out.println("你好啊！！");
  }
 
 
 
- public static void main(String[] args) {
-  int[] ints = new int[3];
-  int sum=0;
-  Scanner scanner = new Scanner(System.in);
-  for (int i = 0; i < 3; i++) {
-   ints[i]=scanner.nextInt();
-  }
 
-  for (int i = 0; i < 3; i++) {
-   sum+=ints[i];
-  }
-  System.out.println(sum);
- }
 
 }
